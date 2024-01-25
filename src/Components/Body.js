@@ -40,7 +40,7 @@ const Body = () => {
                         );
                         setFilterRestaurant(filteredList)
                     }}
-                >TOP Rated</button>
+                >Top Rated</button>
             </div>
             <div className='restro-cont'>
                 {filterRestaurant.map((restaurant) => (
